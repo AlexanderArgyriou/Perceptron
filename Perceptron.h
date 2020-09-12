@@ -1,4 +1,3 @@
-#pragma once
 #include <iostream>
 #include <vector>
 #include <random>
@@ -40,7 +39,7 @@ class Perceptron
 		inline static float GetRandom() noexcept;
 		Perceptron(const std::vector<std::vector<T>> &In, 
 			const std::vector<T> &Re, const std::size_t newSize,
-			float newLR, std::size_t newEpochs);                 // Constructor
+			float newLR, std::size_t newEpochs);             // Constructor
 		inline int Predict(std::size_t Layer) const noexcept;    // Predict
 		inline void Train() noexcept;                            // Train
 };	// Perceptron
