@@ -3,7 +3,7 @@
 
 int main()
 {
-	const std::size_t Epochs = 20'000;
+	const std::size_t Epochs = 15;
 	// Fun set based on Rectangle sides or Square sides
 	std::vector< std::vector<int> > TS
 	{
